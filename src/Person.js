@@ -1,10 +1,10 @@
 import React from 'react'
 import "./Person.css"
-function Person() {
+function Person(props) {
     return (
         <div className="person">
-            <h1>Max</h1>
-            <p>Your Age: 28</p>
+            <h1>{props.name}</h1>
+            <p>Your Age: {props.age}</p>
         </div>
     )
 }
