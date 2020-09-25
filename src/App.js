@@ -6,6 +6,7 @@ function App() {
   return (
     <div className="App">
      <Person name="Max" age= "28" /> 
+     <Person name="Manu" age= "29" /> 
     </div>
   );
 }
